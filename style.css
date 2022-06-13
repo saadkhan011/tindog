@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+/* header  */
+.title{
+    background-color: #ff4c68;
+    font-family: Montserrat-Black;
+    color: white;
+}
+/* navbar  */
+ .brand{ 
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2.3rem;
+    font-family: Ubuntu;
+    font-weight: bold;
+ }
+ .navbar-nav li{
+  padding: 0px 20px;
+  font-size: 1.6vw;
+}
+/* header image  */
+ .dogimage img{
+    width:42%;
+    transform: rotate(25deg);
+    padding: 5% 10% 0;
+    position: absolute;
+ }
+ .text h1{
+   padding-top: 60px;
+   font-size: 4vw;
+   line-height: 1.5;
+ }
+ .containe{
+    padding: 5% 15%;
+ }
+ .button{
+   padding-top: 7%;
+ }
+ /* content  */
+ #feature{
+   position: relative;
+   z-index: 1;
+   background-color: #fff;
+   padding: 10% 15%;
+   text-align: center;
+   margin: 0;
+ }
+ .icon{
+   color: #ef8172;
+   margin-bottom: 20px;
+   width: 80%;
+ }
+ .icon:hover{
+   color: #ff4c68;
+ }
+ .feature-box{
+   font-family: Montserrat-Light;
+}
+.feature-box p{
+   font-size: 1.2rem;
+   padding: 0 30px;
+ }
+ /* testimonlas   */
+ .testimonals{
+   background-color:#ef8172;
+ }
+ .testi{
+   padding: 7% 15%;
+   text-align: center;
+   color: #fff;
+   font-family: Montserrat-Bold;
+ }
+ .testi h2{
+   font-size: 4vw;
+   padding-bottom: 30px;
+   line-height: 1.5;
+ }
+ .testimonial-image{
+   border-radius: 100%;
+   width: 10%;
+ }
+ .testimonaols-logo img{
+   width: 24%;
+   padding: 12% 20px 0 0;
+ }
+ /* fee  */
+ .fee{
+   padding: 7% 10%;
+   text-align: center;
+ }
+ .fee h2{
+   font-family: Montserrat-Bold;
+   font-size: 4vw;
+   line-height: 1.4;
+ }
+ .box{
+   padding-top: 5%;
+ }
+
+ /* testimanols2  */
+ .testimanols2{
+   text-align: center;
+   color: #fff;
+   background-color: #ff4c68;
+   padding: 10% 15%;
+ }
+ .testimanols2 h2{
+   font-size: 4vw;
+   font-family: Montserrat-Bold;
+ }
+ /* footer  */
+ footer{
+   text-align: center;
+   display: flex;
+   align-items: center;
+   height: 30vh;
+ }
+ p{
+  color: #999595;
+ }
+ footer i{
+   padding: 15px 10px;
+ }
+ @media (max-width:995px) {
+  .dogimage img{
+    text-align: center;
+    transform: rotate(0);
+    position: static;
+ }
+ .title{
+    text-align: center;
+ }
+ }
